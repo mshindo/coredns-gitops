@@ -79,6 +79,6 @@ spec:
     app: coredns
   ports:
   - name: dns
-    port: 53
+    port: 15353
     targetPort: 5353
     protocol: UDP
