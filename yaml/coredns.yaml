@@ -14,7 +14,7 @@ data:
   shin.do.zone: |
     $TTL	3600
     @	IN	SOA	ns1.shin.do.	root.shin.do. (
-    				2021092203	; Serial
+    				2021092204	; Serial
     				3600	; Refresh
     				900	; Retry
     				3600000 ; Expire
@@ -32,7 +32,7 @@ data:
     ns2	IN	A	35.247.124.32
     google7adefcbf4c86cfef	IN	CNAME	google.com.
     blog	IN	A	221.245.168.211
-    demo  IN  A 192.168.0.111
+    demo  IN  A 192.168.0.112
 ---
 apiVersion: apps/v1
 kind: Deployment
